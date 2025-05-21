@@ -101,7 +101,7 @@ class SymbolList(Qw.QWidget, Ui_SymbolList):
         self.listWidget.currentItemChanged.connect(self.on_symbol_selected)
         self.listWidget.setCurrentRow(0)
 
-        self.comboBox_search_field.currentIndexChanged.connect(self.listWidget.clearSelection())
+        self.comboBox_search_field.currentIndexChanged.connect(self.listWidget.clearSelection)
         self.comboBox_search_field.currentIndexChanged.connect(self.search_symbols)
         self.lineEdit_search.textEdited.connect(self.search_symbols)
         self.comboBox_sort.currentIndexChanged.connect(self.search_symbols)
