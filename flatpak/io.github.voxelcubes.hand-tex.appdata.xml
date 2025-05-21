@@ -36,6 +36,14 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.0.4" date="2025-05-21">
+      <description>
+        <p>Changelog:</p>
+        <ul>
+          <li>Fix Expected signal or callable, got "NoneType"</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.3" date="2025-03-08">
       <description>
         <p>Initial release</p>
